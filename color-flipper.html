@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <!-- <img src="index.png" alt=""> -->
+    <h1>Color Generator <span>v1.0</span></h1>
+   
+  </header>
+  <section>
+    <div>
+      <p class="option">Select color code type:</p>
+      <select name="output" id="color-output">
+        <option value="RGB">RGB</option>
+        <option value="HEX">HEX</option>
+      </select>
+    </div>
+    <div class="color-display-holder">
+      <div class="color-background"><p class="color-code"></p></div>
+      <div class="color-background"><p class="color-code"></p></div>
+      <div class="color-background"><p class="color-code"></p></div>
+      <div class="color-background"><p class="color-code"></p></div>
+      <div class="color-background"><p class="color-code"></p></div>
+    </div>
+    <button class="submit" onclick="generate();">Click to generate color!</button>
+    
+  </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
