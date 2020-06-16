@@ -24,7 +24,7 @@ function getRandomRgb() {
   // //var r = num >> 16;
   // var g = num >> 8 & 255;
   // var b = num & 255;
-  return 'rgb(' + r + ', ' + g + ', ' + b + ')';
+  return 'rgb(' + r + ',' + g + ',' + b + ')';
 }
 
 // ---------------------SET BACKGROUND COLOR TO ALL DIVS----------------------
