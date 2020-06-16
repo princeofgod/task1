@@ -113,7 +113,9 @@ button:hover{
   }
   .option{
     text-align: left;
+    margin-left:auto;
     width:250px;
+    margin-left:40px;
     /* display:inline;
     margin:0 70px; */
   }
@@ -123,7 +125,7 @@ button:hover{
     /*float:right;*/
     border-radius:3px;
     width:50px;
-    margin-right: 50px;
+    margin-left:120px;
     /*padding:10px 20px 10px 0;*/
   }
 /* -----------------------HEADING--------------------------- */
